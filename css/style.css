@@ -9,9 +9,9 @@
 	font-family: 'Signika Negative', 'sans-serif';
 	font-weight: 400px;
 	text-transform: uppercase;
-
+	margin-top: 3px;
  
-  padding: 13px;
+  padding: 12px;
 }
 
 
@@ -250,12 +250,17 @@ padding:40px;
 .navbar-custom .navbar-nav>li>a {
 	color: #726969;
     font-size: 14px;
-    text-transform: uppercase;
+    text-transform: nones;
 }
+ .navbar-custom .navbar-nav .menu ul>li>a {
+	color: #726969;
+    font-size: 14px;
+    text-transform: none;
+} 
 .small .navbar-nav>li>a {
 	color: #b07f7f;
 }
-.small .navbar-nav .menu li a{
+.small .navbar-nav .menu ul li a{
 	color: #b07f7f;
 }
 nav.small {
