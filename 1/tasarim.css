@@ -6,7 +6,7 @@
 
 :root{
     --yazi-renk:#fff;
-    --bg-renk:#000000;
+    --bg-renk:#970808;
     --bg-aktif-renk:#000000;
 }
  
@@ -75,13 +75,14 @@ body{
 main p{
     margin:5px 20px;
 }
+
 #ana_div {
     
     height: 300px;
 
     margin-right: auto;
     margin-left:60px;
-	margin-top: 80px;
+	margin-top: 40px;
   
     
 }
