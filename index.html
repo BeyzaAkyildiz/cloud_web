@@ -27,12 +27,6 @@
   <link rel="stylesheet" href="css/style.css" />
   
   
-  <link href="1/index.html" />
-  <a href="1/index.html"></a>
-  <a href="1/css/tasarim.css"></a>
-
-
-
 </head>
 
 <body data-spy="scroll" data-offset="80">
@@ -57,8 +51,7 @@
         <a style="margin-left: -159px;" class="navbar-brand" href="#"><img src="images/k.png" style="width: 150px;"></a>
       </div>
 
-
-   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+ <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
      
           <li ><a href="#home">ANASAYFA</a></li>
@@ -66,28 +59,6 @@
           <li><a href="#services">ÜSTÜNLÜKLERİ NELERDİR</a></li> 
             <li><a href="#ana_div3">BİLİŞİM MODELLERİ</a></li>
           <li><a href="#modeller">DAĞITIM MODELLERİ</a></li>
-          <!--
-		  <li>
-            <nav class="menu">
-              <ul>
-                <li><a href="1/index.html">ELEKTRAWEB MODÜLLERİ</a>
-                  <ul>
-                    <li><a href="1/index.html#Bulut1">Elektraweb Ön Büro Modülü</a></li>
-                    <li><a href="1/index.html#Bulut2">Elektraweb POS Restoran Yönetim Programı</a></li>
-                    <li><a href="1/index.html#Bulut3">ElektraWeb Temassız Misafir Uygulaması</a></li>
-                    <li><a href="1/index.html#Bulut4">ElektraWeb Kanal Yönetimi</a></li>
-                    <li><a href="1/index.html#Bulut5">Elektraweb CRM ve Misafir İlişkileri</a></li>
-                    <li><a href="1/index.html#Bulut6">Elektraweb Satış Projeleri ve Banket Yönetimi</a></li>
-                    <li><a href="1/index.html#Bulut7">ElektraWeb Online Rezervasyon Motoru</a></li>
-                    <li><a href="1/index.html#Bulut8">Elektraweb Sadakat Yönetimi</a></li>
-                    <li><a href="1/index.html#Bulut9">Elektraweb Otel Muhasebe Yönetimi</a></li>
-                    <li><a href="1/index.html#Bulut10">Elektraweb Misafir Yorum Sitelerinin Entegrasyonu</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </nav>
-          </li>
-                -->
           <li><a href="#contact">İLETİŞİM</a></li>
        
          
@@ -101,14 +72,6 @@
     <div class="home__header-content">
       <div id="main-home-carousel" class="owl-carousel">
     
-        <!-- <div class="container">
-
-          <h1 class="customHead" style="position:relative ;font-size: 21px;color:#d6c3c3;">
-            "Web Tabanlı, Bulut Yapıda"
-            <div style="font-size: 22px;
-          margin-bottom: 170px;"> En Kapsamlı Otel Programı</div>
-          </h1>
-        </div> -->
       </div>
     </div>
   </section>
@@ -274,14 +237,9 @@
           <h1 style="text-align: center;" >Hizmet Olarak Altyapı (IaaS):</h1>
 
           <p>Bazen IaaS olarak da kısaltılan Hizmet Olarak Altyapı, bulut BT sistemi için temel yapı taşlarını içerir ve genelde ağ özelliklerine, bilgisayarlara (sanal veya tahsis edilmiş donanımda) ve veri depolama alanına erişim sunar. Hizmet Olarak Altyapı, BT kaynaklarınızın üzerinde en yüksek esneklik ve yönetim denetimi seviyesini sunar ve birçok BT departmanının ve yazılım geliştiricinin günümüzde aşina olduğu mevcut BT kaynaklarına benzer kaynaklar sunar. </p>
-          
-
-        </div>
+           </div>
       </div>
     </div>
-
-
-
     <div class="col-md-4" >
 
       <div class="col" id="divv"> <img src="images/ç22.jpg" class="fotoo" /></div>
@@ -379,15 +337,18 @@
           <h1 class="title text-center"> <strong>Bizimle İletişime Geçin</strong></h1>
           <div class="titleHR"><span></span></div>
 
-          <form role="form" name="ajax-form" id="ajax-form" action="php/contact.php" method="post" class="form-main">
+          <form role="form" name="ajax-form" id="ajax-form"  method="post" class="form-main">
             <div class="col-xs-12">
               <div class="row">
+               
                 <div class="form-group col-xs-6">
                   <label for="name2">İsim</label>
-                  <input class="form-control" id="name2" name="name" onblur="if(this.value == '') this.value='Name'"
-                    onfocus="if(this.value == 'Name') this.value=''" type="text" value="İsim">
-                  <div class="error" id="err-name" style="display: none;">Lütfen isim giriniz</div>
+                  <input class="form-control" id="name2" name="isim" type="text"
+                  onfocus="if(this.value == 'İsim') this.value='';" 
+                  onblur="if(this.value == '') this.value='İsim';" value="İsim">
+               <div class="error" id="err-İsim" style="display: none;">Lütfen isim giriniz</div>
                 </div>
+             
                 <div class="form-group col-xs-6">
                   <label for="email2">Email</label>
                   <input class="form-control" id="email2" name="email" type="text"
@@ -412,16 +373,16 @@
               </div>
               <div class="row">
                 <div class="col-xs-12 text-center">
-                  <div id="ajaxsuccess">E-mail başarıyla gönderildi</div>
+                  <div id="ajaxsuccess">Mesajınız başarıyla gönderildi</div>
                   <div class="error" id="err-form" style="display: none;">Form doğrulanırken bir sorun oluştu lütfen
                     kontrol edin!
-</div>
-                  <div class="error" id="err-timedout">Sunucuya bağlantı zaman aşımına uğradı!
-                  </div>
+                    </div>
                   <div class="error" id="err-state"></div>
                   <button type="submit" class="btn btn-custom" style="background-color: dimgrey;" id="send">Gönder</button>
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.5922454501215!2d30.646813415250392!3d36.9001017799281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c391db81c14477%3A0xbd813fc99c814fac!2zVGFseWEgQmlsacWfaW0gLSBFcnMgWWF6xLFsxLFt!5e0!3m2!1str!2str!4v1625496109989!5m2!1str!2str"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.5922454501215!2d30.646813415250392!3d36.
+                    9001017799281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c391db81c14477%3A0xbd813fc99c814fac!
+                    2zVGFseWEgQmlsacWfaW0gLSBFcnMgWWF6xLFsxLFt!5e0!3m2!1str!2str!4v1625496109989!5m2!1str!2str"
                     width="600" height="450" style="border:0; padding-top:50px; ;" allowfullscreen=""
                     loading="lazy"></iframe>
                 </div>
@@ -441,7 +402,7 @@
         <div class="row">
           <div class="col-sm-4 col-md-4">
             <div class="footer-content">
-              <h4>KEEP IN TOUCH</h4>
+              <h4>SOSYAL MEDYA</h4>
               <div class="footer-socials">
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-google-plus"></i></a>
@@ -453,27 +414,22 @@
           <div class="col-sm-4 col-md-4">
             <div class="footer-content">
               <h4>ADDRESS</h4>
-              <p> Akdeniz Üniversitesi Antalya Teknokenti<br>
-                Ar-Ge 3 Binası Dumlupınar Bulvarı No:758/3 Kampüs ANTALYA</p>
-              <p style="text-align: center;"> Gsm : 0531 680 12 05<br>
-                <a href="#">www.talyabilisim.com</a><br>
-                info@talyabilisim.com
-              </p>
+              <p> Akdeniz Üniversitesi Antalya Teknokenti<br>Ar-Ge 3 Binası Dumlupınar Bulvarı No:758/3 Kampüs ANTALYA</p>
+              <p style="text-align: center;"> Gsm : 0531 680 12 05<br><a href="#">www.talyabilisim.com</a><br>info@talyabilisim.com</p>
             </div> 
           </div> 
           <div class="col-sm-4 col-md-4">
             <div class="footer-content">
               <h4>Destek</h4>
               <p>Desteğe mi ihtiyacınız var? Destek forumumuzu ziyaret edin ve sorularınız için iletişime geçiniz.</p>
-              <p style="text-align: centers;"><button type="button" style="background-color: dimgrey;" class="btn btn-custom-sm">forum</button></p>
+              <p style="text-align: centers;"><button type="button" style="background-color: dimgrey;" class="btn btn-custom-sm"> forum</button></p>
             </div> 
           </div>
         </div> 
       </div> 
     </div>
     <div class="footer-bottom text-center">
-     
-      <p style="margin-left: 650px;">©2021 Beyza Akyıldız</p>
+    <p style="margin-left: 650px;">©2021 Beyza Akyıldız</p>
     </div>
   </footer>
 
